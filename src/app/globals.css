@@ -3,7 +3,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: rgb(232, 235, 237);
+  --background: rgb(255, 255, 255);
   --foreground: rgb(51, 51, 51);
   --font-sans: var(--font-inter);
   --font-sans: var(--font-geist-mono);
@@ -29,7 +29,7 @@
   --chart-3: rgb(213, 68, 80);
   --chart-4: rgb(226, 177, 70);
   --chart-5: rgb(60, 76, 118);
-  --sidebar: rgb(221, 223, 226);
+  --sidebar: var(--background);
   --sidebar-foreground: rgb(51, 51, 51);
   --sidebar-primary: rgb(224, 93, 56);
   --sidebar-primary-foreground: rgb(255, 255, 255);

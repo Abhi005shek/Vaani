@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Vaani",
   description: "Voice AI",
+  icons: {
+    icon: "/logo.svg"
+  }
 };
 
 export default function RootLayout({
