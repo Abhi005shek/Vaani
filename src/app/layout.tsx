@@ -15,11 +15,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vaani",
-  description: "Voice AI",
+  title: {
+    default: "Vaani",
+    template: "%s | Vaani",
+  },
+  description: "AI-powered text to speech and voice cloning plateform",
   icons: {
-    icon: "/logo.svg"
-  }
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({
